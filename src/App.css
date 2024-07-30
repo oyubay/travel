@@ -1,0 +1,93 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.navbar{
+  background: #74b580;
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  padding: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.earthIcon{
+  width:25px;
+  height: 25px;
+  padding-right: 1em;
+}
+.place-container{
+  display: flex;
+  margin: 3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-direction: row;
+}
+.place--image{
+  width: 20em;
+  margin-right: 3em;
+}
+.place--loc--icon{
+  width:20px;
+  height: 22px;
+}
+.place--loc{
+  display: flex;
+  letter-spacing: 2px;
+}
+.place--info{
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.place--info>h1{
+  font-size: 2em;
+}
+.place--description{
+  margin-right:2em;
+  margin-top:1em;
+  text-align: justify;
+}
+.place--date{
+  font-weight: bold;
+}
